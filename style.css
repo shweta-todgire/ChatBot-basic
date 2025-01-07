@@ -1,0 +1,95 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #7a8a9b;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    height: 100vh;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.header {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 620px;
+    color: #08192c;
+    font-weight: bold;
+    font-size: 1.3em;
+}
+
+#codealpha-logo {
+    width: 150px;
+    height: auto;
+    margin-right: 15px;
+    border-radius: 10px;
+}
+
+.chat-container {
+    width: 1200px;
+    height: 580px;
+    background-color: #110327;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ffffff;
+    align-self: center;
+}
+
+.chat-box {
+    height: 600px;
+    overflow-y: auto;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.message {
+    padding: 10px;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background-color: #f1f1f1;
+    word-wrap: break-word; 
+    max-width: 90%; 
+    display: inline-block; 
+}
+
+.bot-message {
+    background-color: #110327;
+    color: white;
+    border: 1px solid #ffffff;
+    text-align: left;
+    align-self: flex-start;
+}
+
+.user-message {
+    background-color: #110327;
+    color: white;
+    text-align: right;
+    border: 1px solid #ffffff;
+    align-self: flex-end; 
+}
+
+#user-input {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2em;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ffffff;
+    background-color: #110327;
+    color: white;
+    margin-left: 250px;
+    margin-right: 250px;
+}
