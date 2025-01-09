@@ -1,4 +1,4 @@
-# ChatBot-simple
+# ChatBot-basic
 
 # CodeAlpha Chatbot
 
